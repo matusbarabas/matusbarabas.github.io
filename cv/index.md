@@ -4,9 +4,10 @@ title: Zivotopis
 selected: zivotopis
 ---
 
-<object width="420" height="315"
-data="https://www.youtube.com/v/XGSy3_Czz8k">
-</object>
+{% for song in site.data.song_list %}
+<h3>{{ song.name }}</h3>
+<object width="420" height="315" data="{{ song.url }}"></object>
+{% endfor %}
 
 TU BUDE MOJ ZIVOTOPIS
 
