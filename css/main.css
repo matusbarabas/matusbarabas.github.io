@@ -1,6 +1,6 @@
 /*body {
     margin: 60px auto;
-    width: 70%;
+    width: 200px;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -30,7 +30,7 @@ p {
 }
 footer {
     border-top: 1px solid #d5d5d5;
-    font-size: .8em;	
+    font-size: .8em;
 }
 */
 ul.posts {
@@ -59,18 +59,18 @@ footer {
   margin: 15px 0;
 }
 
-.navbar { 
+.navbar {
 	font-size: 1.1em;
-	font-family: 'Lato', Helvetica, Arial, sans-serif !important; 
+	font-family: 'Lato', Helvetica, Arial, sans-serif !important;
 }
 
-.im-centered { 
-	margin-left: 150px; 
+.im-centered {
+	margin-left: 150px;
 	max-width: 1100px;}
 
-/* ZMENA FARIEB PISMA V HEADRI 
+/* ZMENA FARIEB PISMA V HEADRI
 .navbar-default .navbar-nav > li > a {
-   color: black; 
+   color: black;
 }
 */
 
