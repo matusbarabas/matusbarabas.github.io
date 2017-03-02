@@ -1,0 +1,39 @@
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="shortcut icon" type="image/jpg" href="/images/fit.jpg" />
+
+	<title>{{ page.title }}</title>
+
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="header_bar">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#default_nav">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/">{{ site.name }}</a>
+			</div>
+			<div class="collapse navbar-collapse" id="default_nav">
+				<ul class="nav navbar-nav">
+					{% if page.selected == 'home' %}
+						{% include clicked.html domov="active" o_mne="" zivotopis="" webove_publikovanie="" prispevky=""%}
+					{% elsif page.selected == 'o_mne' %}
+						{% include clicked.html domov="" o_mne="active" zivotopis="" webove_publikovanie="" prispevky=""%}
+					{% elsif page.selected == 'zivotopis' %}
+						{% include clicked.html domov="" o_mne="" zivotopis="active" webove_publikovanie="" prispevky=""%}
+					{% elsif page.selected == 'webove_publikovanie' %}
+						{% include clicked.html domov="" o_mne="" zivotopis="" webove_publikovanie="active" prispevky=""%}
+					{% elsif page.selected == 'prispevky' %}
+						{% include clicked.html domov="" o_mne="" zivotopis="" webove_publikovanie="" prispevky="active"%}
+					{% endif %}
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<link rel="stylesheet" type="text/css" href="/css/main.css">
+</head>
