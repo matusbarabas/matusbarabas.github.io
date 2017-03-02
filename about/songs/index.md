@@ -1,6 +1,6 @@
 ---
 layout: about_me_layout
-title: Pesničky
+title: Playlist
 selected: o_mne
 about_me_selected: pesnicky
 ---

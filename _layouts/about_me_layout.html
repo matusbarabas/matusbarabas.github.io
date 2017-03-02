@@ -5,10 +5,15 @@ layout: default
 <div class="container" style="margin-top:70px">
     <div class="well">
       <ul class="nav nav-tabs nav-justified">
-        {% if page.about_me_selected == 'o_mne' %}
-          {% include about_me_tabs.html  o_mne="active" pesnicky="" %}
-        {% elsif page.about_me_selected == 'pesnicky' %}
-          {% include about_me_tabs.html  o_mne="" pesnicky="active" %}
+        {% if page.about_me_selected == "o_mne" %}
+            <li class="active"><a href="/about">Niečo o mne</a></li>
+        {% else %}
+            <li><a href="/about">Niečo o mne</a></li>
+        {% endif %}
+        {% if page.about_me_selected == "pesnicky" %}
+            <li class="active"><a href="/about/songs">Obľúbené pesničky</a></li>
+        {% else %}
+            <li><a href="/about/songs">Obľúbené pesničky</a></li>
         {% endif %}
       </ul>
 			<!--img src="/images/about_me.png" class="center-block" width="350px" height="125px"-->
