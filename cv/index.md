@@ -4,6 +4,10 @@ title: Zivotopis
 selected: zivotopis
 ---
 
+<object width="420" height="315"
+data="https://www.youtube.com/v/XGSy3_Czz8k">
+</object>
+
 TU BUDE MOJ ZIVOTOPIS
 
 {% for song in site.data.song_list %}

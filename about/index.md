@@ -4,7 +4,7 @@ title: O mne
 selected: o_mne
 ---
 
-<span style=" color: #000000; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 15px;">Volám sa Matúš Barabás, mám 22 rokov. Pochádzam z **Kežmarku**, mestečku pod Tatrami.</span>
+<span style=" color: #000000; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 15px;">Volám sa Matúš Barabás, mám 22 rokov. Pochádzam z **Kežmarku**, mestečka pod Tatrami.</span>
 
 [<img src="/images/kezmarok.jpg" width="500px" height="150px">](http://kezmarok.sk)
 <hr/>
@@ -12,6 +12,6 @@ selected: o_mne
 
 [<img src="/images/fiit.gif" width="200px" height="70px">](http://fiit.stuba.sk)
 <hr/>
-<span style=" color: #000000; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 15px;">Vo voľnom čase, ktorého veľa popri škole nie je, rád športujem (beh, bicykel, hokejbal, florbal) a cestovaním objavujem nové zákutia.</span>
+<span style=" color: #000000; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 15px;">Vo voľnom čase rád športujem (beh, bicykel, hokejbal, florbal) a cestovaním objavujem nové zákutia.</span>
 <hr/>
 <span style=" color: #000000; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 15px;">Odkaz na môj profil na rôznych sociálnych sieťach nájdete v dolnej časti stránky po rozkliknutí danej ikonky.</span>
