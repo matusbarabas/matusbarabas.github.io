@@ -20,15 +20,17 @@
 			<div class="collapse navbar-collapse" id="default_nav">
 				<ul class="nav navbar-nav">
 					{% if page.selected == 'home' %}
-						{% include clicked.html domov="active" o_mne="" zivotopis="" webove_publikovanie="" prispevky=""%}
+						{% include clicked.html domov="active" o_mne="" zivotopis="" webove_publikovanie="" prispevky="" photo_galery=""%}
 					{% elsif page.selected == 'o_mne' %}
-						{% include clicked.html domov="" o_mne="active" zivotopis="" webove_publikovanie="" prispevky=""%}
+						{% include clicked.html domov="" o_mne="active" zivotopis="" webove_publikovanie="" prispevky="" photo_galery=""%}
 					{% elsif page.selected == 'zivotopis' %}
-						{% include clicked.html domov="" o_mne="" zivotopis="active" webove_publikovanie="" prispevky=""%}
+						{% include clicked.html domov="" o_mne="" zivotopis="active" webove_publikovanie="" prispevky="" photo_galery=""%}
 					{% elsif page.selected == 'webove_publikovanie' %}
-						{% include clicked.html domov="" o_mne="" zivotopis="" webove_publikovanie="active" prispevky=""%}
+						{% include clicked.html domov="" o_mne="" zivotopis="" webove_publikovanie="active" prispevky="" photo_galery=""%}
 					{% elsif page.selected == 'prispevky' %}
-						{% include clicked.html domov="" o_mne="" zivotopis="" webove_publikovanie="" prispevky="active"%}
+						{% include clicked.html domov="" o_mne="" zivotopis="" webove_publikovanie="" prispevky="active" photo_galery=""%}
+					{% elsif page.selected == 'photo_galery' %}
+						{% include clicked.html domov="" o_mne="" zivotopis="" webove_publikovanie="" prispevky="" photo_galery="active"%}
 					{% endif %}
 				</ul>
 			</div>
