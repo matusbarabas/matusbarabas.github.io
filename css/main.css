@@ -45,7 +45,7 @@ ul.posts li {
 footer {
     /*position: absolute;*/
     /*bottom: 0;*/
-	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	  font-family: 'Lato', Helvetica, Arial, sans-serif;
     width: 100%;
     min-height: 57px;
     background-color: #FFFFFF;
@@ -76,4 +76,35 @@ footer {
 
 body {
 	background-image: url("color_backround.jpg");
+}
+
+/*CV - components*/
+.bs-callout {
+  margin: 20px 0;
+  padding: 15px 30px 15px 15px;
+  border-left: 5px solid #eee;
+}
+
+.bs-callout h4 {
+  margin-top: 0;
+}
+.bs-callout p:last-child {
+  margin-bottom: 0;
+}
+.bs-callout code,
+.bs-callout .highlight {
+  background-color: #fff;
+}
+
+.bs-callout-danger {
+  background-color: #fcf2f2;
+  border-color: #dFb5b4;
+}
+.bs-callout-warning {
+  background-color: #fefbed;
+  border-color: #f1e7bc;
+}
+.bs-callout-info {
+  background-color: #f0f7fd;
+  border-color: #d0e3f0;
 }
