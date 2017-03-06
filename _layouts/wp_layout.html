@@ -3,8 +3,41 @@ layout: default
 ---
 
 <div class="container" style="margin-top:70px">
-    <div class="well">
-        <h1>{{ page.title }}</h1>
-		{{ content }}
+  <div class="row">
+    <div class="col-md-2">
+      <div class="well">
+        <center><h3>Menu</h3></center>
+        <hr/>
+        <ul class="nav nav-pills nav-stacked">
+          {% if page.wp_selected == "wp" %}
+              <li class="active"><a href="/wp">Webové publikovanie</a></li>
+          {% else %}
+              <li><a href="/wp">Webové publikovanie</a></li>
+          {% endif %}
+          {% if page.wp_selected == "zadanie1" %}
+              <li class="active"><a href="/wp/zadanie1">Zadanie 1</a></li>
+          {% else %}
+              <li><a href="/wp/zadanie1">Zadanie 1</a></li>
+          {% endif %}
+          {% if page.wp_selected == "zadanie2" %}
+              <li class="active"><a href="/wp/zadanie2">Zadanie 2</a></li>
+          {% else %}
+              <li><a href="/wp/zadanie2">Zadanie 2</a></li>
+          {% endif %}
+          {% if page.wp_selected == "zadanie3" %}
+              <li class="active"><a href="/wp/zadanie3">Zadanie 3</a></li>
+          {% else %}
+              <li><a href="/wp/zadanie3">Zadanie 3</a></li>
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="col-md-10">
+          <div class="well">
+        		{{ content }}
+          </div>
+        </div>
+      </div>
     </div>
 </div>
