@@ -4,6 +4,7 @@ title: "Pridal som smajlíky"
 date: 2017-03-03
 selected: prispevky
 permalink: /prispevky/:year/:month/:day/:title
+published: true
 ---
 
 Na stránke pribudli smajlíky. Tu je ukážka niektorých z nich.

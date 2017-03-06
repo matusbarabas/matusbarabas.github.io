@@ -19,7 +19,8 @@ layout: default
 			<!--img src="/images/about_me.png" class="center-block" width="350px" height="125px"-->
 			<center><h1>{{ page.title }}</h1></center>
 			<hr/>
-            <center>{{ content }}</center>
-        </div>
+      <center>{{ content }}</center>
+      <hr/>
+      <div style="text-align: right"> Posledná zmena: {{ site.time | date_to_long_string }}</div>
     </div>
 </div>
