@@ -36,3 +36,6 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+
+collections:
+  - cv_collection
