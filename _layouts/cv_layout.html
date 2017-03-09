@@ -9,7 +9,7 @@ layout: default
             <center>
               <img src="/images/my_photo1.jpg" class="img-circle" alt="My photo" width="180" height="180">
               <h2>{{ site.name }}</h2>
-              <h4>{{ page.sections['pozicia']}}</h4>
+              {{ page.sections['pozicia'] | markdownify }}
             </center>
             <hr/>
             <h4>Osobné údaje</h4>

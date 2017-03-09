@@ -3,7 +3,7 @@ layout: cv_layout
 title: Zivotopis
 selected: zivotopis
 sections:
-  pozicia: Študent
+  pozicia: '#### Študent' 
   univerzita: Slovenská Technická Univerzita
   vysoka_skola: Fakulta informatiky a informačných technológií
   vysoka_skola_rok: 2014 - súčasnosť
