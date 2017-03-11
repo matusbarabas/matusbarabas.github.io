@@ -9,26 +9,16 @@ layout: default
         <center><h3>Menu</h3></center>
         <hr/>
         <ul class="nav nav-pills nav-stacked">
-          {% if page.wp_selected == "wp" %}
-              <li class="active"><a href="/wp">Webové publikovanie</a></li>
-          {% else %}
-              <li><a href="/wp">Webové publikovanie</a></li>
-          {% endif %}
-          {% if page.wp_selected == "zadanie1" %}
-              <li class="active"><a href="/wp/zadanie1">Zadanie 1</a></li>
-          {% else %}
-              <li><a href="/wp/zadanie1">Zadanie 1</a></li>
-          {% endif %}
-          {% if page.wp_selected == "zadanie2" %}
-              <li class="active"><a href="/wp/zadanie2">Zadanie 2</a></li>
-          {% else %}
-              <li><a href="/wp/zadanie2">Zadanie 2</a></li>
-          {% endif %}
-          {% if page.wp_selected == "zadanie3" %}
-              <li class="active"><a href="/wp/zadanie3">Zadanie 3</a></li>
-          {% else %}
-              <li><a href="/wp/zadanie3">Zadanie 3</a></li>
-          {% endif %}
+          {% case page.wp_selected %}
+            {% when 'wp' %}
+              {% include wp_menu.html wp="active" %}
+            {% when 'zadanie1' %}
+              {% include wp_menu.html  wpz1="active" %}
+            {% when 'zadanie2' %}
+              {% include wp_menu.html  wpz2="active" %}
+            {% when 'zadanie3' %}
+              {% include wp_menu.html  wpz3="active" %}
+          {% endcase %}
         </div>
       </div>
 

@@ -6,16 +6,16 @@ layout: default
   <div class="row">
     {% assign photos = site.data.photos | sort: 'name' %}
     {% for photo in photos %}
-    <div class="col-md-4">
-      <div class="thumbnail">
-        <a href="/photos/photo_images/{{ photo.link }}" target="_blank">
-          <img src="/photos/photo_images/{{ photo.link }}" alt={{ photo.name }} style="width:100%">
-          <div class="caption">
-            <center><p>{{ photo.name }}</p></center>
-          </div>
-        </a>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <a href="/photos/photo_images/{{ photo.link }}" target="_blank">
+            <img src="/photos/photo_images/{{ photo.link }}" alt={{ photo.name }} style="width:100%">
+            <div class="caption">
+              <center><p>{{ photo.name }}</p></center>
+            </div>
+          </a>
+        </div>
       </div>
-    </div>
     {% endfor %}
   </div>
 </div>

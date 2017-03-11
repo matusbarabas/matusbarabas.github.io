@@ -23,10 +23,10 @@ layout: default
               <h4>Kontakt</h4>
               <a href="mailto:{{ site.email }}"><img src="/images/gmail_icon.png" width="25" height="25" border="0" /> {{ site.email }}</a></br>
               <a href="tel:{{ site.telephone }}"><img src="/images/telephone_icon.png" width="25" height="25" border="0" /> {{ site.telephone }}</a></br>
-        			<a href="https://www.facebook.com/matus.barabas"><img src="/images/facebook_icon.png" width="25" height="25" border="0" /> facebook.com/matus.barabas</a></br>
-        			<a href="https://www.instagram.com/hawai15/"><img src="/images/instagram_icon.png" width="25" height="25" border="0" /> instagram.com/hawai15/</a></br>
+        			<a href="https://www.facebook.com/{{ site.facebook }}"><img src="/images/facebook_icon.png" width="25" height="25" border="0" /> facebook.com/{{ site.facebook }}</a></br>
+        			<a href="https://www.instagram.com/{{ site.instagram }}"><img src="/images/instagram_icon.png" width="25" height="25" border="0" /> instagram.com/{{ site.instagram }}</a></br>
         			<a href="https://twitter.com/{{ site.twitter_username }}"><img src="/images/twitter_icon.png" width="25" height="25" border="0" /> twitter.com/{{ site.twitter_username }}</a></br>
-        			<a href="https://github.com/{{ site.github_username }}"><img src="/images/github_icon.png" width="25" height="25" border="0" /> github.com/{{ site.github_username }}</a>
+        			<a href="https://github.com/{{ site.github_username }}"><img src="/images/github_icon.png" width="25" height="25" border="0" /> github.com/{{ site.github_username }}</a-->
               <hr/>
               {% for j in cv.jazyky %}
                 {{ j.title | markdownify }}
@@ -49,7 +49,7 @@ layout: default
               {% endfor %}
             {% endfor %}
             <hr/>
-          {% endfor %}            
+          {% endfor %}
           </div>
         </div>
         <div class="col-md-9">
