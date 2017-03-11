@@ -2,5 +2,5 @@
 layout: posts_layout
 title: Prispevky
 selected: prispevky
-reading_plugin: true
+reading_plugin: false
 ---
