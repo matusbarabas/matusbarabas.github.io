@@ -58,7 +58,7 @@ pracovne_skusenosti:
   - firma: "### Herlitz"
     rok: "Júl 2015 - September 2015"
     popis: "Bol som skladníkom v sklade so školskými pomôckami."
-    href: "https://www.herlitz.de/cz/home-products.html"
+    href: "http://www.herlitz.de/en/home-products.html"
     src:  "/images/herlitz.png"
     width: "175"
     height: "50"
