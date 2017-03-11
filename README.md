@@ -1,4 +1,4 @@
-# Link na stránku: https://www.matusbarabas.github.io
+# Link na stránku: https://matusbarabas.github.io
 
 Vlastné premenné:  
 * selected - slúži na zistenie, ktorý z tabou v hlavnom nav-bare je aktívny
@@ -9,7 +9,7 @@ Vlastné premenné:
 * reading_plugin - boolean, ktorý určuje, či sa používa daný plugin, alebo nie
 
 Kolekcie:  
-* použil som kolekcie pre životopis, ktorá obsahuje všetky moje údaje, skúsenosti a zručnosti
+* použil som kolekciu pre životopis, ktorá obsahuje všetky moje údaje, skúsenosti a zručnosti
 
 Dátové súbory:  
 * photos.yml - súbor s fotkami tj. linkom a popisom
