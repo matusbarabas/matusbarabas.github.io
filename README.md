@@ -1,4 +1,4 @@
-# Link na stránku: https://www.matusbarabas.github.io
+# Link na stránku: https://matusbarabas.github.io
 
 Vlastné premenné:  
 * selected - slúži na zistenie, ktorý z tabou v hlavnom nav-bare je aktívny
