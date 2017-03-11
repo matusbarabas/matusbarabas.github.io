@@ -33,6 +33,7 @@ theme: minima
 slider_array: []
 gems:
   - jekyll-feed
+  - liquid_reading_time
   - jemoji
 
 exclude:
