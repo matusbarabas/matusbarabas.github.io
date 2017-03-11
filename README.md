@@ -17,7 +17,7 @@ Dátové súbory:
 
 Filtre:  
 * date_to_long_string - zobrazuje dátum poslednej zmeny na stránke, je obsiahnutý v názve príspevku
-* markdownify - konvertuje markdown do HTML - použitý napr. pri ťahaní údajov z Kolekcie
+* markdownify - konvertuje Markdown do HTML - použitý napr. pri ťahaní údajov z Kolekcie
 * sort - fotky sú zoradené abecedne podľa popisu
 * number_of_words - v príspevkoch sa počíta počet slov
 
