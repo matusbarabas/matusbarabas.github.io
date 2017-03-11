@@ -8,8 +8,10 @@ layout: default
 		<ul class="posts">
 			{% for post in site.posts %}
 				{% capture time %}{{ post.content | reading_time }}{% endcapture %}
-				<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>{% if page.reading_plugin == true %} »
-					{% if time == '1' %}pár sekúnd{% else %} {{ time }} minúty{% endif %} čítania {% endif %}
+				<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+					{% if page.reading_plugin == true %} »
+						{% if time == '1' %}pár sekúnd{% else %} {{ time }} minút{% endif %} čítania 
+					{% endif %}
 				</li>
 		  {% endfor %}
 	</div>

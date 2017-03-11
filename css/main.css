@@ -79,6 +79,18 @@ body {
 	background-image: url("color_backround.jpg");
 }
 
+/*Buttons
+
+.custom_buttons {
+    font-size: 1.7em;
+    font-family: 'Lato', Helvetica, Arial, sans-serif !important;
+    text-align: center;
+    line-height: 65px;
+    height: 100px !important;
+    width: 300px !important;
+    margin-bottom:10px
+}*/
+
 /*CV - components*/
 .bs-callout {
   margin: 20px 0;
