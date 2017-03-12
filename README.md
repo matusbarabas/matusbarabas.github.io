@@ -1,37 +1,46 @@
 # Link na stránku: https://matusbarabas.github.io
 
 Vlastné premenné:  
-* selected - slúži na zistenie, ktorý z tabou v hlavnom nav-bare je aktívny
-* wp_selected - zistenie aktívneho tabu v menu postránky Weboé publikovanie
-* about_me_selected - akt9vne taby na podstránke O mne
-* date - dátum napísania príspevku
-* published - označuje publikovaný alebo zatiaľ nepublikovaný príspevok (ak je false, neuverejní sa na stránke)
-* reading_plugin - boolean, ktorý určuje, či sa používa daný plugin, alebo nie
+* selected - slúži na zistenie, ktorý z tabov v headri je aktívny, napr. v `/cv/index.md`
+* wp_selected - zistenie aktívneho tabu v menu postránky Webové publikovanie `/wp/index.md`
+* about_me_selected - aktívne taby na podstránke O mne `/about/index.md`
+* date - dátum napísania príspevku, napr. v `/_posts/2017-02-21-working-on-page.md`
+* published - označuje publikovaný alebo zatiaľ nepublikovaný príspevok (ak je false, neuverejní sa na stránke), napr. v `/_posts/2017-02-21-working-on-page.md`
+* reading_plugin - boolean, ktorý určuje, či sa používa daný plugin, alebo nie `/post/index.md`
 
 Kolekcie:  
-* použil som kolekciu pre životopis, ktorá obsahuje všetky moje údaje, skúsenosti a zručnosti
+* použil som kolekciu pre životopis, ktorá obsahuje všetky moje údaje, skúsenosti a zručnosti `/_cv_collection/cv.md`
 
 Dátové súbory:  
-* photos.yml - súbor s fotkami tj. linkom a popisom
-* song_list.yml - zoznam pesniciek s linkom a názvom
+* photos.yml - súbor s fotkami tj. linkom a popisom `/_data/photos.yml`
+* song_list.yml - zoznam pesničiek s linkom a názvom  `_data/song_list.yml`
 
 Filtre:  
-* date_to_long_string - zobrazuje dátum poslednej zmeny na stránke, je obsiahnutý v názve príspevku
-* markdownify - konvertuje Markdown do HTML - použitý napr. pri ťahaní údajov z Kolekcie
-* sort - fotky sú zoradené abecedne podľa popisu
-* number_of_words - v príspevkoch sa počíta počet slov
+* date_to_long_string - zobrazuje dátum poslednej zmeny na stránke, napr. v `/_layouts/about_me_layout.html`
+* markdownify - konvertuje Markdown do HTML - použitý napr. pri ťahaní údajov z kolekcie cv `/_layouts/cv_layout.html`
+* sort - fotky sú zoradené abecedne podľa popisu `/_layouts/photos_layout.html`
+* number_of_words - v príspevkoch sa počíta počet slov `/_layouts/post.html`
 
 Tagy:  
-* na stránke je použitých množstvo tagov ako npr. for cykly, if, case ...
+* case, napr. v `/_layouts/wp_layout.html`
+* for, napr. v `/_layouts/photos_layout.html`
+* if, napr. v `/layouts/posts_layout.html`
 
 Plugin:  
-* reading_time - plugin, ktorý pre každý príspevok na základe počtu slov vypočítava približnú dobu čítania (zapína sa prepísaním premennej reading_plugin v súbore index_md priečinka post)
-* jemoji - zobrazuje smajlíky (ukážka je v prípevku Pridal som smajlíky)
+* reading_time - plugin, ktorý pre každý príspevok na základe počtu slov vypočítava približnú dobu čítania (zapína sa prepísaním premennej reading_plugin v súbore index.md priečinka post na true)
+* jemoji - zobrazuje smajlíky, ukážka v `/_posts/2017-03-03-add-jemoji.md`
 
 Layouty:
-* default layout, ktorý používa každa podstránka - includuje linky bootstrapu, header a footer, ktorá sa na podstránkach nemení
-* about_me_layout - obsahuje horné prepínanie medzi tabmi
-* cv_layout - konštrukcia pre životopis, dáta sa ťahajú z kolekcie, znovopoužiteľný, stačí prepísať dáta v kolekcii
-* photos_layout - fotogaléria, dá sa použiť aj na iné fotky resp. obrázky s rôznymi popismy, stačí meniť dátový súbor
-* posts_layout - rozloženie príspevkov
-* wp_layout - obsahuje bočné menu, dá sa použiť na rôzny typ inej podstránky
+* default layout, ktorý používa každa podstránka - includuje linky bootstrapu, header a footer, ktorá sa na podstránkach nemení `/_layouts/default.html`
+* about_me_layout - obsahuje horné prepínanie medzi tabmi `/_layouts/about_me_layout.html`
+* cv_layout - konštrukcia pre životopis, dáta sa ťahajú z kolekcie, znovopoužiteľný, stačí prepísať dáta v kolekcii `/_layouts/cv_layout.html`
+* photos_layout - fotogaléria, dá sa použiť aj na iné fotky resp. obrázky s rôznymi popismy, stačí meniť dátový súbor `/_layouts/photos_layout.html`
+* posts_layout - rozloženie príspevkov `/_layouts/posts_layout.html`
+* wp_layout - obsahuje bočné menu, dá sa použiť na rôzny typ inej podstránky `/_layouts/wp_layout.html`
+
+Podstránky:
+* O mne
+* Životopis
+* Fotogaléria
+* Príspevky
+* Webové publikovanie
