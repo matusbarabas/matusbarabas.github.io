@@ -40,7 +40,7 @@ Archív nesmie obsahovať žiadne externé knižnice (saxon, …).
 
 #### **Riešenie:**
 
-Na tranformáciu dokumentu z pôvodného formátu (vytvoreného v LaTeX) do formátu Docbook bola použitá moja rozpracovaná bakalárska práca.
+Na tranformáciu dokumentu z pôvodného formátu (vytvoreného v LaTeX) do formátu Docbook bola použitá moja rozpracovaná bakalárska práca. Okrem kompletnej zmeny súboru ```mojabp.xml``` boli vykonané zmeny aj v súbore ```thesis.xsl```, kde som pozmenil popisy obrázkov a tabuliek a upravil časť, v ktorej sa generujú zoznamy obrázkov a tabuliek. V súbore ```thesis-tp-fo.xsl``` boli prehodené title a meno autora a odsadzenia elementov.
 
 #### **Splnenie požadovaných a kontrolných konštrukcií:**
 
