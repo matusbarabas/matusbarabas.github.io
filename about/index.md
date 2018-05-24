@@ -5,11 +5,11 @@ selected: o_mne
 about_me_selected: o_mne
 ---
 
-<span style=" color: #000000; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 15px;">Volám sa Matúš Barabás, mám 22 rokov. Pochádzam z **Kežmarku**, mestečka pod Tatrami.</span>
+<span style=" color: #000000; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 15px;">Volám sa Matúš Barabás, mám 23 rokov. Pochádzam z **Kežmarku**, mestečka pod Tatrami.</span>
 
 [<img src="/images/kezmarok.jpg" width="500px" height="150px">](http://kezmarok.sk)
 <hr/>
-<span style=" color: #000000; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 15px;">Študujem tretí rok na [**Fakulte informatiky a informačných technológií**](http://www.fiit.stuba.sk), Slovenskej Technickej Univerzity v Bratislave.</span>
+<span style=" color: #000000; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 15px;">Študujem štvrtý rok na [**Fakulte informatiky a informačných technológií**](http://www.fiit.stuba.sk), Slovenskej Technickej Univerzity v Bratislave.</span>
 
 [<img src="/images/fiit.gif" width="200px" height="70px">](http://fiit.stuba.sk)
 <hr/>

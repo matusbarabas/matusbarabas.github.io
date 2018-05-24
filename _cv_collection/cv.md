@@ -48,6 +48,13 @@ vzdelanie:
     width: "100"
     height: "100"
 pracovne_skusenosti:
+  - firma: "### Accenture"
+    rok:  "August 2017 - súčasnosť"
+    popis: "Pracujem ako scala developer."
+    href: "https://www.accenture.com"
+    src:  "/images/accenture.png"
+    width: "150"
+    height: "60"
   - firma: "### Bachmann"
     rok:  "Júl 2016 - September 2016"
     popis: "Pracoval som ako brigádnik. Opravoval som mobilné telefóny."
@@ -70,6 +77,9 @@ pracovne_skusenosti:
     width: "100"
     height: "100"
 pocitacove_znalosti:
+  - jazyk: "#### Scala"
+    percenta: "50"
+    progress_bar: "danger"
   - jazyk: "#### Java"
     percenta: "45"
     progress_bar: "success"
